@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>youmqn — Telegram-боты и AI-автоматизация</title>
+<meta name="description" content="Делаю Telegram-ботов и AI-автоматизацию для бизнеса. 5+ рабочих кейсов: крипто-аналитик с AI, голосовой ассистент, мульти-агентная платформа, фитнес-коуч.">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0a0a0a;color:#e8e8e8}
+  .wrap{max-width:920px;margin:0 auto;padding:48px 24px}
+  header{margin-bottom:48px}
+  h1{font-size:42px;font-weight:800;line-height:1.1;letter-spacing:-.02em;background:linear-gradient(135deg,#fff,#9ca3af);-webkit-background-clip:text;color:transparent}
+  .sub{color:#9ca3af;font-size:18px;margin-top:12px;max-width:640px}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:600;transition:transform .15s,background .15s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn.primary{background:#3b82f6;color:#fff}
+  .btn.primary:hover{background:#2563eb}
+  .btn.ghost{background:#1f1f1f;color:#e8e8e8;border:1px solid #2a2a2a}
+  .btn.ghost:hover{background:#252525}
+
+  section{margin-top:56px}
+  h2{font-size:24px;font-weight:700;margin-bottom:20px;letter-spacing:-.01em}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .card{background:#141414;border:1px solid #1f1f1f;border-radius:14px;padding:22px;transition:border-color .15s,transform .15s}
+  .card:hover{border-color:#3b82f6;transform:translateY(-2px)}
+  .card h3{font-size:18px;font-weight:700;margin-bottom:8px}
+  .card .tag{display:inline-block;background:#1a2548;color:#93c5fd;font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;margin-bottom:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card p{color:#a8a8a8;font-size:14px;margin-bottom:12px}
+  .card .stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+  .pill{background:#1f1f1f;color:#9ca3af;font-size:11px;padding:3px 9px;border-radius:999px;border:1px solid #2a2a2a}
+
+  .pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  .price{background:#141414;border:1px solid #1f1f1f;border-radius:14px;padding:22px}
+  .price.featured{border-color:#3b82f6;position:relative}
+  .price.featured::before{content:"💎 Премиум";position:absolute;top:-10px;left:20px;background:#3b82f6;color:#fff;font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px}
+  .price .name{font-size:13px;color:#9ca3af;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+  .price .amount{font-size:32px;font-weight:800;margin-bottom:4px}
+  .price .term{font-size:13px;color:#9ca3af;margin-bottom:14px}
+  .price ul{list-style:none}
+  .price li{padding:5px 0 5px 22px;position:relative;font-size:14px;color:#d1d1d1}
+  .price li::before{content:"✓";position:absolute;left:0;color:#10b981;font-weight:700}
+
+  .skills{display:flex;flex-wrap:wrap;gap:8px}
+  .skill{background:#141414;border:1px solid #1f1f1f;color:#d1d1d1;padding:8px 14px;border-radius:10px;font-size:14px}
+
+  .contact{background:linear-gradient(135deg,#1e293b,#0f172a);border:1px solid #1f1f1f;border-radius:18px;padding:32px;margin-top:48px;text-align:center}
+  .contact h2{margin-bottom:8px}
+  .contact p{color:#9ca3af;margin-bottom:20px}
+  .contact .links{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+
+  footer{margin-top:56px;padding:24px 0;border-top:1px solid #1f1f1f;color:#6b7280;font-size:13px;text-align:center}
+
+  @media(max-width:600px){
+    h1{font-size:32px}
+    .wrap{padding:32px 16px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Делаю Telegram-ботов и AI-автоматизацию для бизнеса</h1>
+  <p class="sub">Python, ChatGPT/Claude/Groq, интеграции с CRM, платежами, парсингом и базами данных. 5+ рабочих проектов в продакшене.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://t.me/ouzoo">📩 Написать в Telegram</a>
+    <a class="btn ghost" href="https://kwork.ru/user/youmqn" target="_blank">Профиль на Kwork</a>
+    <a class="btn ghost" href="https://github.com/youmqn" target="_blank">GitHub</a>
+  </div>
+</header>
+
+<section>
+  <h2>🚀 Проекты в продакшене</h2>
+  <div class="grid">
+
+    <div class="card">
+      <span class="tag">AI · Финансы</span>
+      <h3>Крипто-аналитик 24/7</h3>
+      <p>Telegram-бот, который мониторит крипто-новости каждые 5 минут, AI анализирует влияние на рынок, выдаёт сигналы LONG/SHORT/SKIP с расчётом размера позиции и обучением риск-менеджменту.</p>
+      <div class="stack">
+        <span class="pill">Python</span><span class="pill">aiohttp</span><span class="pill">OpenRouter</span><span class="pill">CryptoPanic</span><span class="pill">Railway 24/7</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">AI · Voice · OCR</span>
+      <h3>Голосовой ассистент Джарвис</h3>
+      <p>Десктоп-ассистент с wake-word: открывает приложения, ищет в YouTube, управляет медиа и громкостью, читает текст с экрана через Windows OCR, отвечает в чатах автоматически.</p>
+      <div class="stack">
+        <span class="pill">Whisper</span><span class="pill">Groq llama-3.3-70b</span><span class="pill">WinRT OCR</span><span class="pill">gTTS</span><span class="pill">SpeechRecognition</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">Multi-agent AI</span>
+      <h3>MyTeamly — команда AI-агентов</h3>
+      <p>Локальная AI-платформа с 4 агентами (разработчик, аналитик, ассистент, менеджер) и инструментами для работы с файлами, командами и браузером. Командный режим: менеджер координирует выполнение задач.</p>
+      <div class="stack">
+        <span class="pill">Flask</span><span class="pill">function calling</span><span class="pill">Telegram Bot API</span><span class="pill">multi-agent</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">Fitness · AI</span>
+      <h3>Fitness Coach Bot</h3>
+      <p>Расчёт КБЖУ по Mifflin-St Jeor, AI составляет дневное меню под цели (набор/сушка), парсит еду из текста («съел 200г курицы») в калории, строит график веса, шлёт напоминания.</p>
+      <div class="stack">
+        <span class="pill">python-telegram-bot</span><span class="pill">Groq</span><span class="pill">aiosqlite</span><span class="pill">matplotlib</span><span class="pill">Railway 24/7</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">Управление ПК</span>
+      <h3>pc-bot — управление компом из Telegram</h3>
+      <p>Бот для удалённого управления ПК: открывает/закрывает приложения, выполняет shell-команды, поддерживает интерактивный PowerShell-режим, делает скриншоты и отвечает через AI.</p>
+      <div class="stack">
+        <span class="pill">psutil</span><span class="pill">subprocess</span><span class="pill">PIL</span><span class="pill">OpenRouter</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">E-commerce</span>
+      <h3>Продажа билетов с QR</h3>
+      <p>Telegram-бот для клуба: продажа билетов (танцпол/VIP), генерация уникального QR-кода для каждого билета, сохранение в базу для контроля на входе.</p>
+      <div class="stack">
+        <span class="pill">telebot</span><span class="pill">qrcode</span><span class="pill">JSON DB</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>💰 Тарифы</h2>
+  <div class="pricing">
+
+    <div class="price">
+      <div class="name">Базовый</div>
+      <div class="amount">от 500 ₽</div>
+      <div class="term">1-2 дня</div>
+      <ul>
+        <li>Базовый бот с командами</li>
+        <li>До 5 функций</li>
+        <li>Деплой на твой ПК / VPS</li>
+        <li>Исходники + инструкция</li>
+      </ul>
+    </div>
+
+    <div class="price featured">
+      <div class="name">AI-бот</div>
+      <div class="amount">от 3 500 ₽</div>
+      <div class="term">2-5 дней</div>
+      <ul>
+        <li>Подключение ChatGPT / Claude / Groq</li>
+        <li>Память контекста, function calling</li>
+        <li>SQLite база</li>
+        <li>Деплой на Railway 24/7</li>
+        <li>Документация</li>
+      </ul>
+    </div>
+
+    <div class="price">
+      <div class="name">Под ключ</div>
+      <div class="amount">от 12 000 ₽</div>
+      <div class="term">5-10 дней</div>
+      <ul>
+        <li>AI-автоматизация бизнеса</li>
+        <li>CRM / Google Sheets / Notion</li>
+        <li>Админ-панель, статистика</li>
+        <li>Платежи (ЮKassa / Stripe)</li>
+        <li>14 дней правок бесплатно</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>🛠 Стек</h2>
+  <div class="skills">
+    <span class="skill">Python</span>
+    <span class="skill">python-telegram-bot</span>
+    <span class="skill">aiogram</span>
+    <span class="skill">aiohttp / aiosqlite</span>
+    <span class="skill">FastAPI / Flask</span>
+    <span class="skill">PostgreSQL / SQLite</span>
+    <span class="skill">OpenAI / Anthropic / Groq</span>
+    <span class="skill">OpenRouter</span>
+    <span class="skill">Whisper STT</span>
+    <span class="skill">Function calling</span>
+    <span class="skill">Railway / VPS</span>
+    <span class="skill">Docker</span>
+    <span class="skill">ЮKassa / Stripe</span>
+    <span class="skill">Парсинг (BeautifulSoup, Selenium)</span>
+    <span class="skill">Google Sheets API</span>
+    <span class="skill">Notion API</span>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Готов делать твой проект уже сегодня</h2>
+  <p>Опиши задачу — отвечу в течение часа и за 10 минут оценю стоимость и срок.</p>
+  <div class="links">
+    <a class="btn primary" href="https://t.me/ouzoo">💬 Telegram</a>
+    <a class="btn ghost" href="https://kwork.ru/user/youmqn" target="_blank">Kwork</a>
+    <a class="btn ghost" href="https://github.com/youmqn" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 youmqn · Telegram-боты и AI-автоматизация
+</footer>
+
+</div>
+</body>
+</html>
